@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Righteous&family=Roboto+Slab&family=Roboto:wght@300;400;700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+html, div, body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  #272727;
+}
+
+#wrapper {
+    margin: 40px;
+}
+
+#nav {
+    width: 100vw;
+    display: flex;
+    background-color: #078C06;
+    border-bottom: solid 5px #5c5c5c;
+    height: 55px;
+}
+
+.nav_container {
+    display: flex;
+    width: calc(100vw / 3)
+}
+
+ul.nav_items {
+    display: flex;
+    width: calc(100vw / 3);
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+ul.nav_items a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gabarito';
+}
+
+#brand_box {
+    height: 55px;
+    display: flex;
+}
+
+#brand_box img {
+    height: 45px;
+    padding: 5px;
+}
+
+#brand_box h1 {
+    font-family: 'Roboto Slab';
+    color: white;
+    padding: 5px;
+    padding-left: 0;
+    font-size: 22.5px;
+    line-height: 1;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto Slab';
+}
+
+p, li, li a {
+    color: white;
+    font-family: 'Roboto';
+    text-decoration: none;
+}

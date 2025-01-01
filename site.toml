@@ -1,0 +1,8 @@
+name = "Halyx Government"
+type = 1
+source = "https://github.com/CStafford-14/halyx-gov-web.git"
+owner = "Halyx"
+version = 1
+image = "/storage/static/HGBanner.png"
+color = "#078C06FF"
+id = "803ff1a5-6c5e-4fc1-b38d-5af2aade67a4"
